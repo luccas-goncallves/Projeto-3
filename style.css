@@ -1,9 +1,10 @@
 *{
-    background-color: rgb(218, 152, 179);
+  box-sizing: border-box;
+    background-color: rgb(90, 80, 84);
     font-family: "Mochiy Pop One", sans-serif;
     font-weight: 400;
     font-style: normal;
-    border: 1px solid;
+    box-sizing: border-box;
   }
   /* início da página principal*/
 
@@ -43,6 +44,16 @@
   color: white;
   }
 
+#atração{
+  display: flex;
+  width: 460px;
+  flex-direction: column;
+  gap: 20px ;
+  list-style-type: none;
+  padding-left: 0px;
+  color: white;
+}  
+
 /* início da página principal*/
 
 /* Início do header */
@@ -52,7 +63,7 @@ header{
   align-items: center;
   justify-content: left;
   gap: 50px;
-  font-size: xx-large;
+  font-size: 30px;
 }
 
 header,#span{
